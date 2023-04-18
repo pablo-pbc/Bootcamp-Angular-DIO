@@ -6,6 +6,12 @@ Potência Tech Angular Developer - Powered by iFood
 
    
  - [x] Página interativas com Javascript
+    - Variaveis e operadores
+    - Condicionais
+    - Funções
+    - Objetos
+    - Arrays
+    - Importações
  - [x] Desafios de lógica com Javascript
  - [x] Produtividade com Angular
  - [x] Desafios de código com JSON
