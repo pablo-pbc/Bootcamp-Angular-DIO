@@ -1,15 +1,18 @@
-
+//Classe/Objeto Pessoa
 class Pessoa {
+    //Atributos da classe pessoa
     nome;
     idade;
     anoDeNascimento;
 
+    //construtor da classe pessoa
     constructor(nome, idade) {
         this.nome = nome;
         this.idade = idade;
         this.anoDeNascimento = 2022 - idade;
     }
 
+    //Método 'descrever' da classe pessoa
     descrever() {
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);  
     }
