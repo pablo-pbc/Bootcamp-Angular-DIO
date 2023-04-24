@@ -6,6 +6,12 @@
     list-style: none;
 }
 
+.pokemonInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -88,7 +94,7 @@
 
 .pokemon .number {
     color: #000;
-    opacity: .3;
+    opacity: .5;
     text-align: right;
     font-size: .625rem;
 }
@@ -96,7 +102,6 @@
 .pokemon .name {
     text-transform: capitalize;
     color: #fff;
-    margin-bottom: .25rem;
 }
 
 .pokemon .detail {
