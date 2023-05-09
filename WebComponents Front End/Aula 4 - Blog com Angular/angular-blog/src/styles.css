@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --standard-bg: #111111;
+  --standard-txt-color: #ffffff;
+  --standard-font: 'Segoe UI';
+  --standard-box-s: border-box;
+  --reset-m-p: 0;
+  --none: 'none'
+}
+
+*{
+  margin: var(--reset-m-p);
+  padding: var(--reset-m-p);
+  box-sizing: var(--standard-box-s);
+  background-color: var(--standard-bg);
+  color: var(--standard-txt-color);
+  font-family: var(--standard-font);
+}
