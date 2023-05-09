@@ -23,9 +23,16 @@
 }
 
 .small-card__title {
+  display: flex;
+  flex-direction: column;
   width: 70%;
 }
 
 .small-card__title > h1 {
   font-size: 20px;
+}
+
+.small-card__title > a {
+  text-align: end;
+  color: gray;
 }

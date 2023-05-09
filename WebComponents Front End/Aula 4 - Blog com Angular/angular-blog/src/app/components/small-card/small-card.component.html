@@ -1,13 +1,14 @@
 <main class="container__small-card">
   <div class="small-card__photo">
     <img
-      src="https://designshack.net/wp-content/uploads/placeholder-image.png"
-      alt="default placeholder image"
+      src="{{ photoCover }}"
+      alt="{{ photoAlt }}"
     >
-    <p>Author: Pablo</p>
+    <p>Author: {{ photoAuthor }}</p>
   </div>
 
   <div class="small-card__title">
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis hic tempora est.</h1>
+    <h1>{{ cardTitle }}</h1>
+    <a [routerLink]="['content', Id]">Veja mais</a>
   </div>
 </main>
