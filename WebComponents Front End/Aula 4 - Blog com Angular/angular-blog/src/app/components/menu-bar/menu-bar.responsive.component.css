@@ -1,0 +1,31 @@
+@media screen and (max-width: 900px)  {
+  .container__nav-bar {
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav-bar__left {
+    width: 100%;
+  }
+
+  .left__text{
+    width: 100%;
+  }
+
+  .left__text > ul {
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 0;
+  }
+
+  .nav-bar__rigth {
+    width: 100%;
+  }
+
+  .nav-bar__rigth > a > img {
+      max-width: 1.275rem;
+      min-width: 1.275rem;
+  }
+}
